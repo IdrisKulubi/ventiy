@@ -4,10 +4,37 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
+  /* Ventiy Brand Colors */
+  --color-primary-green: #03352CF0;
+  --color-accent-orange: #EDAA02;
+  --color-sentiment-red: #FF6B6B;
+  --color-dark-green: #022721;
+  --color-light-grey: #EAEAEA;
+  --color-muted-grey: #9A9A9A;
+  
+  /* Spacing Scale (4, 8, 16, 24, 32, 48, 64px) */
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-16: 16px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-48: 48px;
+  --spacing-64: 64px;
+  
+  /* Border Radius */
+  --radius-button: 12px;
+  --radius-card: 20px;
+  
+  /* Max Content Width */
+  --max-width-content: 1280px;
+  
+  /* Font Family */
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-geist-mono);
+  
+  /* Existing theme colors */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
