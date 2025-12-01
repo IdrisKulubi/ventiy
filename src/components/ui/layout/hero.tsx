@@ -21,9 +21,9 @@ export function Hero() {
                 {/* Left Column: Text Content */}
                 <div className="w-full lg:w-[45%] flex flex-col gap-10 text-center lg:text-left z-20">
                     <div className="space-y-6">
-                        <h1 className="text-5xl lg:text-[5.5rem] font-bold leading-[1.1] tracking-tight">
-                            <span className="text-[#EDAA02] block">Stay Anonymous.</span>
-                            <span className="text-[#EDAA02] block">Stay Secure.</span>
+                        <h1 className="text-5xl lg:text-[5.5rem] font-bold leading-tight tracking-tight flex flex-col">
+                            <span className="text-[#EDAA02]">Stay Anonymous.</span>
+                            <span className="text-[#EDAA02]">Stay Secure.</span>
                         </h1>
 
                         <p className="text-lg lg:text-2xl text-white/90 leading-relaxed max-w-xl mx-auto lg:mx-0 font-light">
